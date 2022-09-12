@@ -1,0 +1,14 @@
+true                // Boolean for the mode (true if training and false if running)
+2                   // Number of hidden layers
+10000 1000 100 5    // Number of activation, hidden, and output nodes
+25                  // Number of test cases
+0.01 100000         // Error threshold and maximum iterations
+0.1                 // Lambda
+-1.5 1.5            // Random weight lower and upper limits
+false               // Whether weights are preloaded
+true                // Whether weights are saved in intervals
+10                  // Interval at which weights are saved
+weightsIn           // File from which starting weights are inputted
+src\train_truth.txt // File from which the truth table is inputted
+weightsOut          // File to which trained weights will be outputted
+false               // Whether weights are printed at the end of training
